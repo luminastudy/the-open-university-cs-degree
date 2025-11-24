@@ -1,0 +1,895 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "title": {
+      "he_text": "בוגר B.Sc. במדעי המחשב",
+      "en_text": "B.Sc. in Computer Science"
+    },
+    "prerequisites": [],
+    "parents": []
+  },
+  {
+    "id": "f1e2d3c4-b5a6-4978-8c6d-5e4f3a2b1c0d",
+    "title": {
+      "he_text": "א - לימודי תשתית במתמטיקה",
+      "en_text": "A - Mathematics Foundation Studies"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+    ]
+  },
+  {
+    "id": "20476000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מתמטיקה בדידה: תורת הקבוצות, קומבינטוריקה ותורת הגרפים",
+      "en_text": "Discrete Mathematics: Set Theory, Combinatorics and Graph Theory"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f1e2d3c4-b5a6-4978-8c6d-5e4f3a2b1c0d"
+    ]
+  },
+  {
+    "id": "20109000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "אלגברה לינארית 1",
+      "en_text": "Linear Algebra 1"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f1e2d3c4-b5a6-4978-8c6d-5e4f3a2b1c0d"
+    ]
+  },
+  {
+    "id": "20229000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "אלגברה לינארית 2",
+      "en_text": "Linear Algebra 2"
+    },
+    "prerequisites": [
+      "20109000-0000-0000-0000-000000000001"
+    ],
+    "parents": [
+      "f1e2d3c4-b5a6-4978-8c6d-5e4f3a2b1c0d"
+    ]
+  },
+  {
+    "id": "20474000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "חשבון אינפיניטסימלי 1",
+      "en_text": "Calculus 1"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f1e2d3c4-b5a6-4978-8c6d-5e4f3a2b1c0d"
+    ]
+  },
+  {
+    "id": "20475000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "חשבון אינפיניטסימלי 2",
+      "en_text": "Calculus 2"
+    },
+    "prerequisites": [
+      "20474000-0000-0000-0000-000000000001"
+    ],
+    "parents": [
+      "f1e2d3c4-b5a6-4978-8c6d-5e4f3a2b1c0d"
+    ]
+  },
+  {
+    "id": "20425000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "הסתברות ומבוא לסטטיסטיקה למדעי המחשב",
+      "en_text": "Probability and Introduction to Statistics for Computer Science"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f1e2d3c4-b5a6-4978-8c6d-5e4f3a2b1c0d"
+    ]
+  },
+  {
+    "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+    "title": {
+      "he_text": "ב - לימודי מדעי המחשב",
+      "en_text": "B - Computer Science Studies"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+    ]
+  },
+  {
+    "id": "20441000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מבוא למדעי המחשב ושפת Java",
+      "en_text": "Introduction to Computer Science and Java"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20407000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מבני נתונים ומבוא לאלגוריתמים",
+      "en_text": "Data Structures and Introduction to Algorithms"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20417000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "אלגוריתמים",
+      "en_text": "Algorithms"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20465000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מעבדה בתכנות מערכות",
+      "en_text": "Systems Programming Lab"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20440000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "אוטומטים ושפות פורמליות",
+      "en_text": "Automata and Formal Languages"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20585000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מבוא לתורת החישוביות והסיבוכיות",
+      "en_text": "Introduction to Computability and Complexity Theory"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20604000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מודלים חישוביים",
+      "en_text": "Computational Models"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20471000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "ארגון המחשב",
+      "en_text": "Computer Organization"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20466000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "לוגיקה למדעי המחשב",
+      "en_text": "Logic for Computer Science"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20594000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מערכות הפעלה",
+      "en_text": "Operating Systems"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20905000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "שפות תכנות",
+      "en_text": "Programming Languages"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20277000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מערכות בסיסי-נתונים",
+      "en_text": "Database Systems"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20436000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "עקרונות פיתוח מערכות מידע",
+      "en_text": "Principles of Information Systems Development"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20296000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "תורת הקודים",
+      "en_text": "Coding Theory"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20462000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "אנליזה נומרית 1",
+      "en_text": "Numerical Analysis 1"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20606000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "תכנות וניתוח נתונים בשפת פייתון",
+      "en_text": "Programming and Data Analysis with Python"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20551000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מבוא לבינה מלאכותית",
+      "en_text": "Introduction to Artificial Intelligence"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20554000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "תכנות מתקדם בשפת Java",
+      "en_text": "Advanced Programming in Java"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20948000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "רשתות תקשורת מחשבים",
+      "en_text": "Computer Communication Networks"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20937000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "תכנות מערכות דפנסיבי",
+      "en_text": "Defensive Systems Programming"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20562000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "גרפיקה ממוחשבת",
+      "en_text": "Computer Graphics"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20580000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מבוא לקריפטוגרפיה",
+      "en_text": "Introduction to Cryptography"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20364000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "קומפילציה",
+      "en_text": "Compilation"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20906000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "תכנות מונחה עצמים",
+      "en_text": "Object-Oriented Programming"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20574000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מערכות נתונים - טכנולוגיות ואלגוריתמים",
+      "en_text": "Data Systems - Technologies and Algorithms"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20581000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "חישוביות ביולוגית",
+      "en_text": "Computational Biology"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20595000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "כריית מידע",
+      "en_text": "Data Mining"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20900000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "אנליזה נומרית 2",
+      "en_text": "Numerical Analysis 2"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20942000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מבוא ללמידה חישובית",
+      "en_text": "Introduction to Computational Learning"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20944000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "רובוטיקה אלגוריתמית",
+      "en_text": "Algorithmic Robotics"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20940000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מבוא לאבטחת המרחב המקוון",
+      "en_text": "Introduction to Cyber Security"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20946000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "מבוא לבדיקות תוכנה (אנגלית)",
+      "en_text": "Introduction to Software Testing (English)"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20399000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "גיאומטריה חישובית",
+      "en_text": "Computational Geometry"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20945000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "אשנב למחקר במדעי המחשב למצטיינים",
+      "en_text": "Research Glimpse in Computer Science for Honors"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20996000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "פרקי העשרה למצטיינים 1",
+      "en_text": "Enrichment Topics for Honors 1"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20997000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "פרקי העשרה למצטיינים 2",
+      "en_text": "Enrichment Topics for Honors 2"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20998000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "פרקי העשרה למצטיינים 3",
+      "en_text": "Enrichment Topics for Honors 3"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20999000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "פרקי העשרה למצטיינים 4",
+      "en_text": "Enrichment Topics for Honors 4"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "20963000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "הרצאות אורח-נושא מיוחד במדעי המחשב",
+      "en_text": "Guest Lectures - Special Topic in Computer Science"
+    },
+    "prerequisites": [],
+    "parents": [
+      "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+    ]
+  },
+  {
+    "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+    "title": {
+      "he_text": "ג - דרישות סמינריוניות במדעי המחשב",
+      "en_text": "C - Computer Science Seminar Requirements"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+    ]
+  },
+  {
+    "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
+    "title": {
+      "he_text": "I. לימודי סמינר במדעי המחשב",
+      "en_text": "I. Seminar Studies in Computer Science"
+    },
+    "prerequisites": [],
+    "parents": [
+      "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b"
+    ]
+  },
+  {
+    "id": "20368000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר בהנדסת תוכנה",
+      "en_text": "Seminar in Software Engineering"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20369000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר באנליזה נומרית",
+      "en_text": "Seminar in Numerical Analysis"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20370000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר בחישוביות",
+      "en_text": "Seminar in Computability"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20371000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר במערכות בסיסי-נתונים",
+      "en_text": "Seminar in Database Systems"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20372000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר בבינה מלאכותית",
+      "en_text": "Seminar in Artificial Intelligence"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20374000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר בקריפטוגרפיה",
+      "en_text": "Seminar in Cryptography"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20375000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר בנושא מיוחד במדעי המחשב",
+      "en_text": "Seminar on Special Topic in Computer Science"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20388000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר בתקשורת/אלגוריתמים מבוזרים",
+      "en_text": "Seminar in Communication/Distributed Algorithms"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20389000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר במערכות הפעלה",
+      "en_text": "Seminar in Operating Systems"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20390000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר באלגוריתמים",
+      "en_text": "Seminar in Algorithms"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20552000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר בביו-אינפורמטיקה",
+      "en_text": "Seminar in Bioinformatics"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20560000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר: ממדעי המחשב להוראתם - רקע, התפתחות וסוגיות נבחרות",
+      "en_text": "Seminar: From Computer Science to Teaching - Background, Development and Selected Issues"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20583000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר במערכות מקביליות",
+      "en_text": "Seminar in Parallel Systems"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20921000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר מצטיינים במדעי המחשב ובמדעי הקוגניציה",
+      "en_text": "Honors Seminar in Computer Science and Cognitive Science"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20373000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר במערכות מידע",
+      "en_text": "Seminar in Information Systems"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20927000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר באבטחת המרחב המקוון",
+      "en_text": "Seminar in Cyber Security"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20922000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר בבינה חישובית",
+      "en_text": "Seminar in Computational Intelligence"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "20954000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סמינר במדעי המחשב (אנגלית)",
+      "en_text": "Seminar in Computer Science (English)"
+    },
+    "prerequisites": [],
+    "parents": [
+      "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+    ]
+  },
+  {
+    "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+    "title": {
+      "he_text": "II. לימודי סדנה במדעי המחשב",
+      "en_text": "II. Workshop Studies in Computer Science"
+    },
+    "prerequisites": [],
+    "parents": [
+      "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b"
+    ]
+  },
+  {
+    "id": "20586000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סדנה בתכנות מונחה עצמים",
+      "en_text": "Workshop in Object-Oriented Programming"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20503000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סדנה בתכנות מתקדם בשפת Java",
+      "en_text": "Workshop in Advanced Java Programming"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20563000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סדנה בבסיסי-נתונים",
+      "en_text": "Workshop in Databases"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20587000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סדנה במערכות הפעלה",
+      "en_text": "Workshop in Operating Systems"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20588000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סדנה בתקשורת מחשבים",
+      "en_text": "Workshop in Computer Communication"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20936000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סדנה במדעי הנתונים",
+      "en_text": "Workshop in Data Science"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20931000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סדנה באבטחת מידע",
+      "en_text": "Workshop in Information Security"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20973000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סדנה בסימולציה של מערכות אוטונומיות (אנגלית)",
+      "en_text": "Workshop in Simulation of Autonomous Systems (English)"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20995000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "סדנה בטכנולוגיות לפיתוח אפליקציות לענן ולרשת",
+      "en_text": "Workshop in Cloud and Web Application Development Technologies"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20975000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "הרצאות אורח- סדנה בנושא מיוחד במדעי המחשב",
+      "en_text": "Guest Lectures - Workshop on Special Topic in Computer Science"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "20964000-0000-0000-0000-000000000001",
+    "title": {
+      "he_text": "הרצאות אורח-סדנה בנושא מיוחד במדעי המחשב (אנגלית)",
+      "en_text": "Guest Lectures - Workshop on Special Topic in Computer Science (English)"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+    ]
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e",
+    "title": {
+      "he_text": "ד - לימודי בחירה",
+      "en_text": "D - General Electives"
+    },
+    "prerequisites": [],
+    "parents": [
+      "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+    ]
+  }
+]
