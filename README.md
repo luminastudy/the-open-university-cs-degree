@@ -98,7 +98,7 @@ Total: **81 blocks** (1 degree + 6 sections/subsections + 74 courses)
 ✅ Schema v0.2 compliant (no extra fields)
 🔄 Prerequisites: In progress
   - Linear Algebra 1 → Linear Algebra 2
-  - Calculus 1 → Calculus 2
+  - Calculus 1 → Calculus 2 → Probability and Statistics
 ⏳ More prerequisites to be added
 
 ## Source

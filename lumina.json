@@ -84,7 +84,9 @@
       "he_text": "הסתברות ומבוא לסטטיסטיקה למדעי המחשב",
       "en_text": "Probability and Introduction to Statistics for Computer Science"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20475000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "f1e2d3c4-b5a6-4978-8c6d-5e4f3a2b1c0d"
     ]
