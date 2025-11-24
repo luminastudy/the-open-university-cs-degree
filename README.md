@@ -82,23 +82,26 @@ Block IDs use UUID format:
 
 ```
 B.Sc. in Computer Science (root)
-├─ A - Mathematics Foundation Studies (6 courses)
-├─ B - Computer Science Studies (39 courses)
-├─ C - Computer Science Seminar Requirements
-│  ├─ I. Seminar Studies in Computer Science (18 courses)
-│  └─ II. Workshop Studies in Computer Science (11 courses)
-└─ D - General Electives
+└─ 74 courses (flat structure)
+   ├─ 6 Mathematics foundation courses
+   ├─ 39 Computer Science courses
+   ├─ 18 Seminar courses
+   ├─ 11 Workshop courses
+   └─ (no section/subsection blocks)
 ```
 
-Total: **81 blocks** (1 degree + 6 sections/subsections + 74 courses)
+Total: **75 blocks** (1 degree root + 74 courses)
 
 ## Current Status
 
 ✅ All courses extracted and structured
 ✅ Schema v0.2 compliant (no extra fields)
-🔄 Prerequisites: In progress
-  - Linear Algebra 1 → Linear Algebra 2
-  - Calculus 1 → Calculus 2 → Probability and Statistics
+🔄 Prerequisites: In progress (4 courses)
+  - **Mathematics:**
+    - Linear Algebra 1 → Linear Algebra 2
+    - Calculus 1 → Calculus 2 → Probability and Statistics
+  - **Computer Science:**
+    - Introduction to CS & Java + Discrete Math → Data Structures & Algorithms
 ⏳ More prerequisites to be added
 
 ## Source
