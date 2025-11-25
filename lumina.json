@@ -111,7 +111,11 @@
       "he_text": "אלגוריתמים",
       "en_text": "Algorithms"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20476000-0000-0000-0000-000000000001",
+      "20407000-0000-0000-0000-000000000001",
+      "20441000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -122,7 +126,9 @@
       "he_text": "מעבדה בתכנות מערכות",
       "en_text": "Systems Programming Lab"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20441000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -133,7 +139,10 @@
       "he_text": "אוטומטים ושפות פורמליות",
       "en_text": "Automata and Formal Languages"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20441000-0000-0000-0000-000000000001",
+      "20476000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -155,7 +164,9 @@
       "he_text": "מודלים חישוביים",
       "en_text": "Computational Models"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20407000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -166,7 +177,9 @@
       "he_text": "ארגון המחשב",
       "en_text": "Computer Organization"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20441000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -177,7 +190,10 @@
       "he_text": "לוגיקה למדעי המחשב",
       "en_text": "Logic for Computer Science"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20476000-0000-0000-0000-000000000001",
+      "20441000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -188,7 +204,10 @@
       "he_text": "מערכות הפעלה",
       "en_text": "Operating Systems"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20465000-0000-0000-0000-000000000001",
+      "20407000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -199,7 +218,12 @@
       "he_text": "שפות תכנות",
       "en_text": "Programming Languages"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20407000-0000-0000-0000-000000000001",
+      "20440000-0000-0000-0000-000000000001",
+      "20465000-0000-0000-0000-000000000001",
+      "20417000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -210,7 +234,10 @@
       "he_text": "מערכות בסיסי-נתונים",
       "en_text": "Database Systems"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20441000-0000-0000-0000-000000000001",
+      "20476000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -243,7 +270,12 @@
       "he_text": "אנליזה נומרית 1",
       "en_text": "Numerical Analysis 1"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20441000-0000-0000-0000-000000000001",
+      "20109000-0000-0000-0000-000000000001",
+      "20474000-0000-0000-0000-000000000001",
+      "20475000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -265,7 +297,12 @@
       "he_text": "מבוא לבינה מלאכותית",
       "en_text": "Introduction to Artificial Intelligence"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20417000-0000-0000-0000-000000000001",
+      "20407000-0000-0000-0000-000000000001",
+      "20441000-0000-0000-0000-000000000001",
+      "20425000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -276,7 +313,9 @@
       "he_text": "תכנות מתקדם בשפת Java",
       "en_text": "Advanced Programming in Java"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20407000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -287,7 +326,10 @@
       "he_text": "רשתות תקשורת מחשבים",
       "en_text": "Computer Communication Networks"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20407000-0000-0000-0000-000000000001",
+      "20425000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -320,7 +362,11 @@
       "he_text": "מבוא לקריפטוגרפיה",
       "en_text": "Introduction to Cryptography"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20109000-0000-0000-0000-000000000001",
+      "20425000-0000-0000-0000-000000000001",
+      "20441000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -331,7 +377,10 @@
       "he_text": "קומפילציה",
       "en_text": "Compilation"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20440000-0000-0000-0000-000000000001",
+      "20465000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -342,7 +391,9 @@
       "he_text": "תכנות מונחה עצמים",
       "en_text": "Object-Oriented Programming"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20407000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -375,7 +426,10 @@
       "he_text": "כריית מידע",
       "en_text": "Data Mining"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20425000-0000-0000-0000-000000000001",
+      "20407000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -397,7 +451,13 @@
       "he_text": "מבוא ללמידה חישובית",
       "en_text": "Introduction to Computational Learning"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20425000-0000-0000-0000-000000000001",
+      "20474000-0000-0000-0000-000000000001",
+      "20475000-0000-0000-0000-000000000001",
+      "20109000-0000-0000-0000-000000000001",
+      "20441000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]
@@ -419,7 +479,10 @@
       "he_text": "מבוא לאבטחת המרחב המקוון",
       "en_text": "Introduction to Cyber Security"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      "20594000-0000-0000-0000-000000000001",
+      "20948000-0000-0000-0000-000000000001"
+    ],
     "parents": [
       "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
     ]

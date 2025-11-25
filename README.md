@@ -96,12 +96,32 @@ Total: **75 blocks** (1 degree root + 74 courses)
 
 ✅ All courses extracted and structured
 ✅ Schema v0.2 compliant (no extra fields)
-🔄 Prerequisites: In progress (4 courses)
-  - **Mathematics:**
+🔄 Prerequisites: In progress (23 courses - 31.1% coverage)
+  - **Mathematics (3 courses):**
     - Linear Algebra 1 → Linear Algebra 2
     - Calculus 1 → Calculus 2 → Probability and Statistics
-  - **Computer Science:**
+  - **Core Computer Science (13 courses):**
+    - Introduction to CS & Java → Systems Programming Lab
     - Introduction to CS & Java + Discrete Math → Data Structures & Algorithms
+    - Introduction to CS & Java + Discrete Math → Automata and Formal Languages
+    - Discrete Math + Data Structures + Intro CS & Java → Algorithms
+    - Introduction to CS & Java → Computer Organization
+    - Discrete Math + Intro CS & Java → Logic for Computer Science
+    - Systems Programming Lab + Data Structures → Operating Systems
+    - Data Structures + Automata + Systems Lab + Algorithms → Programming Languages
+    - Intro CS & Java + Discrete Math → Database Systems
+    - Data Structures → Object-Oriented Programming
+    - Data Structures → Advanced Java Programming
+    - Automata + Systems Programming Lab → Compilation
+    - Data Structures → Computational Models
+  - **Advanced Computer Science (7 courses):**
+    - Algorithms + Data Structures + Intro CS & Java + Probability → Introduction to AI
+    - Data Structures + Probability → Computer Networks
+    - Linear Algebra 1 + Probability + Intro CS & Java → Introduction to Cryptography
+    - Probability + Calculus 1 + Calculus 2 + Linear Algebra 1 + Intro CS & Java → Machine Learning
+    - Operating Systems + Computer Networks → Introduction to Cyber Security
+    - Probability + Data Structures → Data Mining
+    - Intro CS & Java + Linear Algebra 1 + Calculus 1 + Calculus 2 → Numerical Analysis 1
 ⏳ More prerequisites to be added
 
 ## Source
