@@ -9,12 +9,7 @@
     "parents": []
   },
   {
-    "id": "20476000-0000-0000-0000-000000000001",
-    "title": {
-      "he_text": "מתמטיקה בדידה: תורת הקבוצות, קומבינטוריקה ותורת הגרפים",
-      "en_text": "Discrete Mathematics: Set Theory, Combinatorics and Graph Theory"
-    },
-    "prerequisites": [],
+    "id": "github:luminastudy/the-open-university-discrete-math",
     "parents": ["a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"]
   },
   {
@@ -79,7 +74,7 @@
     },
     "prerequisites": [
       "20441000-0000-0000-0000-000000000001",
-      "20476000-0000-0000-0000-000000000001"
+      "github:luminastudy/the-open-university-discrete-math"
     ],
     "parents": ["a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"]
   },
@@ -90,7 +85,7 @@
       "en_text": "Algorithms"
     },
     "prerequisites": [
-      "20476000-0000-0000-0000-000000000001",
+      "github:luminastudy/the-open-university-discrete-math",
       "20407000-0000-0000-0000-000000000001",
       "20441000-0000-0000-0000-000000000001"
     ],
@@ -113,7 +108,7 @@
     },
     "prerequisites": [
       "20441000-0000-0000-0000-000000000001",
-      "20476000-0000-0000-0000-000000000001"
+      "github:luminastudy/the-open-university-discrete-math"
     ],
     "parents": ["a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"]
   },
@@ -151,7 +146,7 @@
       "en_text": "Logic for Computer Science"
     },
     "prerequisites": [
-      "20476000-0000-0000-0000-000000000001",
+      "github:luminastudy/the-open-university-discrete-math",
       "20441000-0000-0000-0000-000000000001"
     ],
     "parents": ["a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"]
@@ -190,7 +185,7 @@
     },
     "prerequisites": [
       "20441000-0000-0000-0000-000000000001",
-      "20476000-0000-0000-0000-000000000001"
+      "github:luminastudy/the-open-university-discrete-math"
     ],
     "parents": ["a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"]
   },
@@ -423,7 +418,7 @@
     "prerequisites": [
       "20441000-0000-0000-0000-000000000001",
       "20465000-0000-0000-0000-000000000001",
-      "20476000-0000-0000-0000-000000000001"
+      "github:luminastudy/the-open-university-discrete-math"
     ],
     "parents": ["a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"]
   },
